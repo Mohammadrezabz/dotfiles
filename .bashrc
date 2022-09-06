@@ -4,7 +4,6 @@
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
-PS1="\e[1;33mMohammadreza - \@ \W >\e[0m"
 
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
