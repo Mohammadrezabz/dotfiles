@@ -2,11 +2,10 @@
 set nu
 syntax on
 " Bell Off
-"set belloff=all
+set visualbell
 " theme setup
-colorscheme desert
 set background=dark
-colorscheme gruvbox
+colorscheme ron
 " Indent setup
 set autoindent
 set smartindent
