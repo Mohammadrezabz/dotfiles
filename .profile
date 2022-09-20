@@ -25,7 +25,10 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
-#Functions 
+#Functions
+dirse(){
+    python3 ~/tools/dirsearch/dirsearch.py -u $1 -e $2 -t 200 -H 'X-Forwarded-For: 127.0.0.1'
+}
 ass(){
     echo $1 | assetfinder
 }
